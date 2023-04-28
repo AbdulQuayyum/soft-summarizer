@@ -52,12 +52,18 @@ body {
       hsla(215, 98%, 61%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, hsl(0, 0%, 100%) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsl(201, 17%, 84%) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, hsl(0, 0%, 0%) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, hsl(221, 39%, 11%) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, hsl(217, 6%, 60%) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, hsl(207, 6%, 65%) 0px, transparent 50%);
+    /* radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
     radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
     radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%); */
   position: absolute;
   content: "";
   width: 100%;
@@ -80,7 +86,7 @@ body {
 }
 
 .black-btn {
-  @apply rounded-full border border-black bg-black py-3 px-8 text-base text-white transition-all hover:bg-white hover:text-black;
+  @apply rounded-full border border-black bg-black py-3 px-8 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 
 .head-text {
