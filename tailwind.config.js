@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        satoshi: ['Satoshi', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        nunito: ['Nunito', 'sans-serif'],
       }
     },
   },
