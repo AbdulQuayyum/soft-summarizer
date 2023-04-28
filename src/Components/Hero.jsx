@@ -26,6 +26,8 @@ const Hero = () => {
             <h2 className='desc'>
                 Simplify your reading with Soft-Summarizer, an open-source summarizer
                 that transforms lengthy articles into clear and concise summaries.
+                <br />
+                All we need is a link of the original.
             </h2>
         </header>
     )
