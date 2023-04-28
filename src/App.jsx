@@ -1,9 +1,11 @@
 import React from "react"
+import MainLayout from "./Layout/Main.Layout"
 
 function App() {
 
   return (
-    <><h6>Heyy, I am Abdul-Quayyum</h6>
+    <>
+      <MainLayout />
     </>
   )
 }
