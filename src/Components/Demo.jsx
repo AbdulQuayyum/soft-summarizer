@@ -31,7 +31,7 @@ const Demo = () => {
 
         if (existingArticle) return setArticle(existingArticle);
 
-        const { data } = await getSummary({ articleUrl: article.url });
+        const { data } = await getSummary({ ArticleUrl: article.url });
         if (data?.summary) {
             const newArticle = { ...article, summary: data.summary };
             const updatedAllArticles = [newArticle, ...allArticles];
@@ -123,7 +123,7 @@ const Demo = () => {
                                 Article <span className='blue-gradient'>Summary</span>
                             </h2>
                             <div className='summary-box'>
-                                <p className='font-inter font-medium text-sm text-gray-700'>
+                                <p className='font-inter font-medium text-sm text-gray-700 dark:text-gray-100'>
                                     {article.summary}
                                 </p>
                             </div>
