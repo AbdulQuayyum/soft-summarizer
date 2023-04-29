@@ -1,24 +1,11 @@
 import React from 'react'
 
-import { Logo } from "../Assets/Index"
+import { Navbar } from "./Index"
 
 const Hero = () => {
     return (
         <header className='w-full flex justify-center items-center flex-col'>
-            <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-                <img src={Logo} alt='Logo' className='w-14 h-auto object-contain' />
-
-                <button
-                    type='button'
-                    onClick={() =>
-                        window.open("https://github.com/AbdulQuayyum/soft-summarizer.git", "_blank")
-                    }
-                    className='black-btn'
-                >
-                    Source Code
-                </button>
-            </nav>
-
+            <Navbar />
             <h1 className='head-text'>
                 Summarize with <br className='max-md:hidden' />
                 <span className='gray-gradient '>OpenAI GPT-4</span>
