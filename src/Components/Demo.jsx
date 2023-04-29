@@ -109,7 +109,7 @@ const Demo = () => {
                 {isFetching ? (
                     <img src={Loader} alt='loader' className='w-20 h-20 object-contain' />
                 ) : error ? (
-                    <p className='font-inter font-bold text-black text-center'>
+                    <p className='font-inter font-bold text-black dark:text-white text-center'>
                         Well, that wasn't supposed to happen...
                         <br />
                         <span className='font-satoshi font-normal text-gray-700'>
@@ -119,7 +119,7 @@ const Demo = () => {
                 ) : (
                     article.summary && (
                         <div className='flex flex-col gap-3'>
-                            <h2 className='font-satoshi font-bold text-gray-600 text-xl'>
+                            <h2 className='font-satoshi font-bold text-gray-600 dark:text-gray-300 text-xl'>
                                 Article <span className='blue-gradient'>Summary</span>
                             </h2>
                             <div className='summary-box'>

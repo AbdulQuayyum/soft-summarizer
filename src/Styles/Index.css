@@ -86,11 +86,11 @@ body {
 }
 
 .black-btn {
-  @apply rounded-full border border-black bg-black py-3 px-8 text-sm text-white transition-all hover:bg-white hover:text-black;
+  @apply rounded-full border-2 border-black bg-black py-3 px-8 text-sm text-white transition-all hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white;
 }
 
 .head-text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center dark:text-white;
 }
 
 .gray-gradient {
@@ -102,15 +102,15 @@ body {
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl dark:text-gray-300;
 }
 
 .url-input {
-  @apply block w-full rounded-md border border-gray-200 bg-white py-3 pl-10 pr-12 text-sm shadow-lg font-nunito font-medium focus:border-black focus:outline-none focus:ring-0;
+  @apply block w-full rounded-md border border-gray-200 bg-white py-3 pl-10 pr-12 text-sm shadow-lg font-nunito font-medium focus:border-black focus:outline-none focus:ring-0 dark:bg-transparent dark:border-black;
 }
 
 .submit-btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
+  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400 dark:border-black dark:text-black;
 }
 
 .link-card {
