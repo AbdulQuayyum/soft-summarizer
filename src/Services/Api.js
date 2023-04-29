@@ -20,3 +20,5 @@ export const Api = createApi({
         })
     })
 })
+
+export const { useLazyGetSummaryQuery } = Api
