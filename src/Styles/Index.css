@@ -86,7 +86,7 @@ body {
 }
 
 .black-btn {
-  @apply rounded-full border-2 border-black bg-black py-3 px-8 text-sm text-white transition-all hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white;
+  @apply rounded-full border border-black bg-black py-3 px-8 text-sm text-white transition-all hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white;
 }
 
 .head-text {
